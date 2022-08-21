@@ -1,0 +1,36 @@
+<header>
+<!-- <div class="overlay" >
+    <marquee>
+      <h5><span style="color: red;"> The Site Is Under Maintainance and is being currently developed by Team A. We're
+          extremely Sorry for your inconvenience.</span></h5>
+    </marquee>
+  </div>  -->
+  <div class="navbar" id="grad" >
+    <div class="navbar-brand  d-flex">
+      <a class="" href="#">
+        <img alt="xxx" class="navbar-brand"
+          src="https://scontent.fdbd1-2.fna.fbcdn.net/v/t1.6435-9/71137161_106565474075069_4508547519889801216_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=p53D_vsXNoEAX-wn_G5&_nc_ht=scontent.fdbd1-2.fna&oh=00_AT-kmImckDbzl678iBPq3_xrVeDKz0aRRU2BOyl6hJaSbg&oe=62FC2802">
+      </a>
+      <strong style="font-size: 30px; color: aqua;">MediBliss</strong>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="form-inline my-2 my-lg-0 mx-auto">
+        <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)"
+          placeholder="Search medicines">
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="fas fa-search search-icon"></span>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"></a>
+     
+        <a class="btn btn-outline-danger" routerLink="/home" routerLinkActive="active"><h3>Home</h3></a>
+       &nbsp;&nbsp;&nbsp;
+      
+        <a class="btn btn-outline-warning" routerLink="/login" routerLinkActive="active" href="">
+            <h4>Log In /SignUp</h4></a>
+     
+    </div>
+    <button routerLink="cart" class="btn btn-outline-warning">
+      <i style="font-size: 20px;" class="fas fa-cart-plus" style="font-size:36px;color:rgb(28, 229, 229)"></i>
+      <div style="font-size: 10px;" class="badge bg-dark">{{totalItem}}</div>
+    </button>
+  </div>
+</header>

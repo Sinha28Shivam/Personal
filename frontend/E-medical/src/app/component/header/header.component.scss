@@ -1,0 +1,71 @@
+
+.form-control {
+    border-radius: 30px;
+    width: 500px;
+    margin-left: 10px;
+    cursor: text;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right:40%;
+    top: 20px;
+    color: rgb(233, 14, 65);
+}
+
+.btn btn-outline-info  {
+    padding: 90px 180px;
+    font-size: 20px;
+    border-radius: 80px;
+    width:95%;  
+}
+.active{
+    color: rgb(122, 10, 10);
+}
+.btn .bx {
+    vertical-align: inherit;
+    margin-top: -3px;
+    font-size: 1.15rem;
+  }
+
+  .navbar-brand{
+    width: 80px;
+    height: 60px;
+  
+   
+  }
+  .btn btn-primary{
+    margin-left: 2px;
+  }
+  #grad {
+   background-image: linear-gradient(to right, red,orange,blue,green,yellow,indigo,violet);
+   background-color: red;
+  // animation-name: example;
+  // animation-delay: 2s;
+  //   animation-duration:4s;
+  //   animation-iteration-count: 50;
+  }
+  // @keyframes example {
+  //   0%   {background-color: red;}
+  //   5%   {background-color: rgb(230, 102, 17);}
+  //   10%   {background-color: rgb(218, 200, 45);}
+  //   15%   {background-color: rgb(131, 225, 48);}
+  //   20%   {background-color: rgb(44, 224, 24);}
+  //   25%   {background-color: rgb(20, 237, 125);}
+  //   30%   {background-color: rgb(221, 25, 25);}
+  //   35%   {background-color: rgb(25, 133, 221);}
+  //   40%   {background-color: rgb(22, 46, 229);}
+  //   45%   {background-color: rgb(86, 11, 148);}
+  //   50%  {background-color: blue;}
+  //   55%   {background-color: rgb(185, 31, 202);}
+  //   60%   {background-color: rgb(205, 15, 91);}
+  //   65%   {background-color: rgb(102, 17, 128);}
+  //   70%   {background-color: rgb(40, 190, 45);}
+  //   75%   {background-color: rgb(33, 20, 178);}
+  //   80%   {background-color: rgb(197, 133, 22);}
+  //   85%   {background-color: rgb(25, 125, 153);}
+  //   90%   {background-color: rgb(173, 15, 173);}
+  //   95%   {background-color: rgb(29, 219, 162);}
+  //   100% {background-color: rgb(93, 19, 139);}
+  // }

@@ -1,0 +1,60 @@
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 1.2px solid rgba(24, 143, 143, 0.2);
+    border-radius: .25rem;
+}
+
+.item img {
+    width: 48px;
+}
+
+.item {
+    
+    margin: 0px 50px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.item a:hover {
+    color: rgb(218, 24, 24);
+}
+
+.card {
+    padding: 25px;
+    margin: 20px;
+    border: 1.4px solid rgba(244, 12, 205, 0.2);
+    border-radius: 1.25rem;
+   }
+
+.card :hover {
+    color: #08b8ee ;
+}
+
+.card img {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+    cursor: zoom-in;
+    transition: 0.5s all ease-in-out;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.4);
+}
+
+.allproducts {
+
+    height: 45px;
+}
+
+.btn:hover{
+    background-color: red;
+} 

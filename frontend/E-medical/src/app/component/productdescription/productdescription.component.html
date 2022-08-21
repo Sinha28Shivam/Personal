@@ -1,0 +1,9 @@
+<ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+    <div class="" style="width: 18rem;">
+        <img src="{{item.image}}" alt="">
+        <h5 class="card-title"
+            style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;" routerLink="/hgcf" routerLinkActive="active">
+            {{item.title}} </h5>
+        <p class="card-text"
+            style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+            {{item.description}}</p>

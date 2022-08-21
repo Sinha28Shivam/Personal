@@ -1,0 +1,12 @@
+.watermark{
+    opacity: 1.9;
+    color:rgb(229, 219, 36);
+    background-image: linear-gradient(to left, pink,blue,indigo,green);
+    width:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+    bottom:1px;
+    right:5px;
+    }
